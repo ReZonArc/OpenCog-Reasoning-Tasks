@@ -46,3 +46,21 @@ Explanation: If Alice is not last and Bob is not first, the only possible arrang
 - Problem Solving
 - Critical Thinking
 - Inference
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- PLN (Probabilistic Logic Networks)
+- Pattern Matcher
+
+**Secondary Subsystems:**
+- AtomSpace
+- Attention Allocation (ECAN)
+
+**Cognitive Architecture:** Symbolic Processing
+
+**Integration Pattern:** Hierarchical Processing
+
+**Reasoning Type:** Deductive Logic
+
+**Complexity Level:** High

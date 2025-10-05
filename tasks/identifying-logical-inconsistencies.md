@@ -60,3 +60,20 @@ These inconsistencies create a logically flawed and potentially misleading adver
 - Argument Analysis
 - Reasoning
 - Synthetic
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- PLN (Probabilistic Logic Networks)
+- Pattern Matcher
+
+**Secondary Subsystems:**
+- AtomSpace
+
+**Cognitive Architecture:** Symbolic Processing
+
+**Integration Pattern:** Parallel Processing
+
+**Reasoning Type:** Consistency Checking
+
+**Complexity Level:** Medium

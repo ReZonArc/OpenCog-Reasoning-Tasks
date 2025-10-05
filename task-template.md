@@ -49,3 +49,19 @@ Output:
 ## Tags:
 - {ex. Pattern Recognition}
 - ...
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- [AtomSpace | PLN (Probabilistic Logic Networks) | Pattern Matcher | Cognition Engine (OpenPsi) | Natural Language Processing (RelEx) | Attention Allocation (ECAN) | Learning and Memory | Perception and Sensory Processing]
+
+**Secondary Subsystems:**
+- [Additional supporting subsystems]
+
+**Cognitive Architecture:** [Symbolic Processing | Sub-symbolic Processing | Hybrid Processing | Meta-cognitive Processing]
+
+**Integration Pattern:** [Sequential Processing | Parallel Processing | Hierarchical Processing | Iterative Processing]
+
+**Reasoning Type:** [Specific type of reasoning required]
+
+**Complexity Level:** [Low | Medium | High | Very High]

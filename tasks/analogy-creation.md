@@ -61,3 +61,21 @@ Just as a snowball's growth can be dramatic over a long, steep hill, compound in
 - Communication
 - Explanatory Skills
 - Synthetic
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- Pattern Matcher
+- Natural Language Processing (RelEx)
+
+**Secondary Subsystems:**
+- AtomSpace
+- Learning and Memory
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** Analogical Generation
+
+**Complexity Level:** High

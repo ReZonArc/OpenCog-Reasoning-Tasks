@@ -80,3 +80,21 @@ Both parties:
 - Emotional Intelligence
 - Multiple Perspectives
 - Synthetic
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- Cognition Engine (OpenPsi)
+- Natural Language Processing (RelEx)
+
+**Secondary Subsystems:**
+- AtomSpace
+- PLN (Probabilistic Logic Networks)
+
+**Cognitive Architecture:** Meta-cognitive Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** Social Perspective Taking
+
+**Complexity Level:** High

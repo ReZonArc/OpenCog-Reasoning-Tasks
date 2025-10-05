@@ -58,3 +58,21 @@ The ambiguity stems from whether "in her garage" refers to where she found the s
 - Linguistic Ambiguity
 - Critical Thinking
 - Synthetic
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- Natural Language Processing (RelEx)
+- PLN (Probabilistic Logic Networks)
+
+**Secondary Subsystems:**
+- AtomSpace
+- Pattern Matcher
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** Language Understanding
+
+**Complexity Level:** High

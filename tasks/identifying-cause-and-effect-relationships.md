@@ -48,3 +48,21 @@ Explanation: The new marketing campaign is presented as the cause that led to th
 - Causal Relationships
 - Logic
 - Reasoning
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- PLN (Probabilistic Logic Networks)
+- Pattern Matcher
+
+**Secondary Subsystems:**
+- AtomSpace
+- Natural Language Processing (RelEx)
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** Causal Analysis
+
+**Complexity Level:** Medium

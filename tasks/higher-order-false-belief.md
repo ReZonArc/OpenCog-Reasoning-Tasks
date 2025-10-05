@@ -28,3 +28,20 @@ Bob is likely to feel deeply wounded, as he believes Alice is reprimanding Charl
 - Social Cognition
 - False Beliefs
 - Interpersonal Dynamics
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- AtomSpace
+- PLN (Probabilistic Logic Networks)
+
+**Secondary Subsystems:**
+- Pattern Matcher
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** General Reasoning
+
+**Complexity Level:** Medium

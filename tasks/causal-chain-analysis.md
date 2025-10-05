@@ -78,3 +78,21 @@ This chain illustrates how the act of deforestation sets off a complex series of
 - Economics
 - Complex Systems Analysis
 - Synthetic
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- PLN (Probabilistic Logic Networks)
+- Pattern Matcher
+
+**Secondary Subsystems:**
+- AtomSpace
+- Learning and Memory
+
+**Cognitive Architecture:** Symbolic Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** Causal Reasoning
+
+**Complexity Level:** High

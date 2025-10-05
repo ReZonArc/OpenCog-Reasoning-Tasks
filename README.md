@@ -2,7 +2,14 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/03dad91c-2330-4213-8cfc-db14c113da16/deploy-status)](https://app.netlify.com/sites/openreasoningtasks/deploys)
 
-Welcome to the **LLM Reasoning Task Collection** repository! This project is an open collaboration to create a comprehensive master list of reasoning tasks that can teach, elicit, or show reasoning samples to large language models (LLMs) for training purposes.
+Welcome to the **OpenCog-LLM Reasoning Task Collection** repository! This project maps reasoning tasks to OpenCog's cognitive architecture subsystems and provides a framework for integrating OpenCog's AGI capabilities with Large Language Model natural language abilities.
+
+## OpenCog Integration
+
+This repository extends the original LLM reasoning tasks with:
+- **OpenCog Subsystem Mappings**: Each task is mapped to relevant OpenCog components (PLN, AtomSpace, Pattern Matcher, etc.)
+- **Cognitive Architecture Classifications**: Tasks are categorized by processing type (Symbolic, Sub-symbolic, Hybrid, Meta-cognitive)
+- **Integration Framework**: Architecture for combining OpenCog formal reasoning with LLM natural language capabilities
 
 ## Contents
 
@@ -35,6 +42,20 @@ Coming Soon
 
 ### AI Reasoning Training and Evaluation Datasets
 Coming Soon
+
+### OpenCog Integration Resources
+
+#### [OpenCog Subsystems Documentation](opencog-subsystems.md)
+Comprehensive overview of OpenCog's cognitive architecture components and their capabilities.
+
+#### [OpenCog-LLM Integration Framework](opencog-llm-framework.md)
+Detailed architecture for combining OpenCog's formal reasoning with LLM natural language abilities.
+
+#### [OpenCog Mapping Summary](opencog-mapping-summary.md)
+Statistical analysis and insights from mapping 88+ reasoning tasks to OpenCog subsystems.
+
+#### [Integration Example](integration-example.md)
+Detailed walkthrough of how the OpenCog-LLM hybrid system processes a syllogism reasoning task.
 
 ## Contributing
 

@@ -11,5 +11,18 @@
         "Measurement",
         "Equation Formulation",
         "Chain of Thoughts"
-    ]
+    ],
+    "opencog_mapping": {
+        "primary_subsystems": [
+            "AtomSpace",
+            "PLN (Probabilistic Logic Networks)"
+        ],
+        "secondary_subsystems": [
+            "Pattern Matcher"
+        ],
+        "cognitive_architecture": "Hybrid Processing",
+        "integration_pattern": "Sequential Processing",
+        "reasoning_type": "General Reasoning",
+        "complexity_level": "Medium"
+    }
 }

@@ -6,7 +6,15 @@ function parseTaskToJSON(taskString) {
         diagram: null,
         citations: null,
         examples: [],
-        tags: []
+        tags: [],
+        opencog_mapping: {
+            primary_subsystems: [],
+            secondary_subsystems: [],
+            cognitive_architecture: '',
+            integration_pattern: '',
+            reasoning_type: '',
+            complexity_level: ''
+        }
     };
 
     // Helper function to extract content between two patterns
@@ -50,10 +58,56 @@ function parseTaskToJSON(taskString) {
     }
 
     // Extract tags
-    const tagsContent = extractBetween(taskString, '## Tags:', '');
-    taskObject.tags = tagsContent.split('\n')
-        .filter(line => line.trim().startsWith('-'))
-        .map(line => line.trim().slice(1).trim());
+    const tagsContent = extractBetween(taskString, '## Tags:', '## OpenCog Mapping:');
+    if (tagsContent) {
+        taskObject.tags = tagsContent.split('\n')
+            .filter(line => line.trim().startsWith('-'))
+            .map(line => line.trim().slice(1).trim());
+    }
+
+    // Extract OpenCog mapping
+    const openCogContent = extractBetween(taskString, '## OpenCog Mapping:', '');
+    if (openCogContent) {
+        // Parse primary subsystems
+        const primarySubsystems = extractBetween(openCogContent, '**Primary Subsystems:**', '**');
+        if (primarySubsystems) {
+            taskObject.opencog_mapping.primary_subsystems = primarySubsystems.split('\n')
+                .filter(line => line.trim().startsWith('-'))
+                .map(line => line.trim().slice(1).trim());
+        }
+
+        // Parse secondary subsystems
+        const secondarySubsystems = extractBetween(openCogContent, '**Secondary Subsystems:**', '**');
+        if (secondarySubsystems) {
+            taskObject.opencog_mapping.secondary_subsystems = secondarySubsystems.split('\n')
+                .filter(line => line.trim().startsWith('-'))
+                .map(line => line.trim().slice(1).trim());
+        }
+
+        // Parse cognitive architecture
+        const cogArch = extractBetween(openCogContent, '**Cognitive Architecture:**', '\n');
+        if (cogArch) {
+            taskObject.opencog_mapping.cognitive_architecture = cogArch.trim();
+        }
+
+        // Parse integration pattern
+        const intPattern = extractBetween(openCogContent, '**Integration Pattern:**', '\n');
+        if (intPattern) {
+            taskObject.opencog_mapping.integration_pattern = intPattern.trim();
+        }
+
+        // Parse reasoning type
+        const reasoningType = extractBetween(openCogContent, '**Reasoning Type:**', '\n');
+        if (reasoningType) {
+            taskObject.opencog_mapping.reasoning_type = reasoningType.trim();
+        }
+
+        // Parse complexity level
+        const complexity = extractBetween(openCogContent, '**Complexity Level:**', '\n');
+        if (complexity) {
+            taskObject.opencog_mapping.complexity_level = complexity.trim();
+        }
+    }
 
     return taskObject;
 }
@@ -108,6 +162,43 @@ function jsonToTaskString(taskObject) {
         addSection('Tags', taskObject.tags, (tags) =>
             tags.map(tag => `- ${tag}`).join('\n')
         );
+    }
+
+    // Add OpenCog mapping
+    if (taskObject.opencog_mapping) {
+        taskString += '## OpenCog Mapping:\n\n';
+        
+        if (taskObject.opencog_mapping.primary_subsystems && taskObject.opencog_mapping.primary_subsystems.length > 0) {
+            taskString += '**Primary Subsystems:**\n';
+            taskObject.opencog_mapping.primary_subsystems.forEach(subsystem => {
+                taskString += `- ${subsystem}\n`;
+            });
+            taskString += '\n';
+        }
+        
+        if (taskObject.opencog_mapping.secondary_subsystems && taskObject.opencog_mapping.secondary_subsystems.length > 0) {
+            taskString += '**Secondary Subsystems:**\n';
+            taskObject.opencog_mapping.secondary_subsystems.forEach(subsystem => {
+                taskString += `- ${subsystem}\n`;
+            });
+            taskString += '\n';
+        }
+        
+        if (taskObject.opencog_mapping.cognitive_architecture) {
+            taskString += `**Cognitive Architecture:** ${taskObject.opencog_mapping.cognitive_architecture}\n\n`;
+        }
+        
+        if (taskObject.opencog_mapping.integration_pattern) {
+            taskString += `**Integration Pattern:** ${taskObject.opencog_mapping.integration_pattern}\n\n`;
+        }
+        
+        if (taskObject.opencog_mapping.reasoning_type) {
+            taskString += `**Reasoning Type:** ${taskObject.opencog_mapping.reasoning_type}\n\n`;
+        }
+        
+        if (taskObject.opencog_mapping.complexity_level) {
+            taskString += `**Complexity Level:** ${taskObject.opencog_mapping.complexity_level}\n\n`;
+        }
     }
 
     return taskString.trim();

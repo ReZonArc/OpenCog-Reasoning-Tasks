@@ -395,3 +395,20 @@ Some software that is modifiable by users does not require paid licenses.
 - Deductive Reasoning
 - Syllogisms
 - Critical Thinking
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- PLN (Probabilistic Logic Networks)
+- Pattern Matcher
+
+**Secondary Subsystems:**
+- AtomSpace
+
+**Cognitive Architecture:** Symbolic Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** Deductive Logic
+
+**Complexity Level:** Medium

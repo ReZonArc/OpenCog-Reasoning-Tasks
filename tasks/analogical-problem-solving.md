@@ -82,3 +82,21 @@ This approach demonstrates how viewing a city as a living organism can provide i
 - Interdisciplinary Application
 - Systems Thinking
 - Synthetic
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- Pattern Matcher
+- PLN (Probabilistic Logic Networks)
+
+**Secondary Subsystems:**
+- AtomSpace
+- Learning and Memory
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Hierarchical Processing
+
+**Reasoning Type:** Analogical Reasoning
+
+**Complexity Level:** High

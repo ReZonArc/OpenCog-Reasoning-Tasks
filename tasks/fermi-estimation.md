@@ -74,3 +74,21 @@ This is a very rough estimate and could easily be off by a factor of 10 in eithe
 - Order of Magnitude
 - Logical Thinking
 - Synthetic
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- PLN (Probabilistic Logic Networks)
+- Learning and Memory
+
+**Secondary Subsystems:**
+- AtomSpace
+- Attention Allocation (ECAN)
+
+**Cognitive Architecture:** Sub-symbolic Processing
+
+**Integration Pattern:** Iterative Processing
+
+**Reasoning Type:** Approximate Reasoning
+
+**Complexity Level:** High

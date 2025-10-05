@@ -46,3 +46,20 @@ Explanation: A pen is the primary tool used by a writer, just as a brush is the 
 - Analogies
 - Vocabulary
 - Relationships
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- Pattern Matcher
+- PLN (Probabilistic Logic Networks)
+
+**Secondary Subsystems:**
+- AtomSpace
+
+**Cognitive Architecture:** Symbolic Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** Analogical Completion
+
+**Complexity Level:** Medium

@@ -49,3 +49,21 @@ The shape that comes next in the sequence is an Octahedron. The pattern repeats 
 - Sequence Completion
 - Logical Thinking
 - Visual-Spatial Skills
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- Pattern Matcher
+- Perception and Sensory Processing
+
+**Secondary Subsystems:**
+- AtomSpace
+- Learning and Memory
+
+**Cognitive Architecture:** Sub-symbolic Processing
+
+**Integration Pattern:** Parallel Processing
+
+**Reasoning Type:** Spatial Pattern Recognition
+
+**Complexity Level:** High

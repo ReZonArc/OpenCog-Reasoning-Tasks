@@ -84,3 +84,20 @@ The subsequent steps in the reasoning (3-7) all rely on the assumption that $C$ 
 - Semantic Analysis
 - Critical Thinking
 - Philosophical Reasoning
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- AtomSpace
+- PLN (Probabilistic Logic Networks)
+
+**Secondary Subsystems:**
+- Pattern Matcher
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** General Reasoning
+
+**Complexity Level:** Medium

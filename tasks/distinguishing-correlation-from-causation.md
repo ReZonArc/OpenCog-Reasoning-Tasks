@@ -60,3 +60,21 @@ Absolutely not. This is a case where the correlation is actually reversed from t
 - Data Analysis
 - Logical Fallacies
 - Causal Reasoning
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- PLN (Probabilistic Logic Networks)
+- Learning and Memory
+
+**Secondary Subsystems:**
+- AtomSpace
+- Pattern Matcher
+
+**Cognitive Architecture:** Symbolic Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** Statistical Reasoning
+
+**Complexity Level:** High

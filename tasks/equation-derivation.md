@@ -51,3 +51,21 @@ Explanation:
 - Word Problems
 - Equation Formulation
 - Problem Solving
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- PLN (Probabilistic Logic Networks)
+- Pattern Matcher
+
+**Secondary Subsystems:**
+- AtomSpace
+- Learning and Memory
+
+**Cognitive Architecture:** Symbolic Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** Mathematical Derivation
+
+**Complexity Level:** High
