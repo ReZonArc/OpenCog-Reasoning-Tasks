@@ -6,7 +6,9 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "node generate-json.js && node generate-markdown.js"
+        "build": "node generate-json.js && node generate-markdown.js",
+        "build-opencog": "node generate-json.js && node generate-opencog-mappings.js && node generate-markdown.js",
+        "update-mappings": "node generate-opencog-mappings.js"
     },
     "author": "",
     "license": "ISC",

@@ -60,3 +60,20 @@ The correct order is:
 - Historical Knowledge
 - Process Understanding
 - Chronological Ordering
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- AtomSpace
+- PLN (Probabilistic Logic Networks)
+
+**Secondary Subsystems:**
+- Pattern Matcher
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** General Reasoning
+
+**Complexity Level:** Medium

@@ -47,3 +47,21 @@ This scenario contains irony. The student's statement is sarcastic because they 
 - Social Intelligence
 - Linguistic Nuance
 - Synthetic
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- Natural Language Processing (RelEx)
+- Cognition Engine (OpenPsi)
+
+**Secondary Subsystems:**
+- AtomSpace
+- Pattern Matcher
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Parallel Processing
+
+**Reasoning Type:** Pragmatic Language Understanding
+
+**Complexity Level:** High

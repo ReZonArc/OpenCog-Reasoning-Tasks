@@ -63,3 +63,20 @@ Each step removes one letter while still forming a valid English word, until we'
 - Deductive Reasoning
 - Creative Thinking
 - Synthetic
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- AtomSpace
+- PLN (Probabilistic Logic Networks)
+
+**Secondary Subsystems:**
+- Pattern Matcher
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** General Reasoning
+
+**Complexity Level:** Medium

@@ -44,3 +44,21 @@ On a standard QWERTY keyboard, the keys are arranged in staggered horizontal row
 - Object Orientation
 - Visual-Spatial Awareness
 - Communication
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- Perception and Sensory Processing
+- Natural Language Processing (RelEx)
+
+**Secondary Subsystems:**
+- AtomSpace
+- Pattern Matcher
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** Spatial Description
+
+**Complexity Level:** Medium

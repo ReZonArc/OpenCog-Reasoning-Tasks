@@ -44,3 +44,22 @@ Bob is likely to tell Felicia that the kid can't get the tooth fairy to visit fo
 - Higher-Order Reasoning
 - Social Cognition
 - Cognitive Psychology
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- Cognition Engine (OpenPsi)
+- PLN (Probabilistic Logic Networks)
+
+**Secondary Subsystems:**
+- AtomSpace
+- Pattern Matcher
+- Attention Allocation (ECAN)
+
+**Cognitive Architecture:** Meta-cognitive Processing
+
+**Integration Pattern:** Hierarchical Processing
+
+**Reasoning Type:** Higher-Order Theory of Mind
+
+**Complexity Level:** Very High

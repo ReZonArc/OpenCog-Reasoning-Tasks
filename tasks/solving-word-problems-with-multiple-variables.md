@@ -86,3 +86,20 @@ Therefore, the rectangle's dimensions are 10 cm wide and 25 cm long.
 - System of Equations
 - Problem Solving
 - Synthetic
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- AtomSpace
+- PLN (Probabilistic Logic Networks)
+
+**Secondary Subsystems:**
+- Pattern Matcher
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** General Reasoning
+
+**Complexity Level:** Medium

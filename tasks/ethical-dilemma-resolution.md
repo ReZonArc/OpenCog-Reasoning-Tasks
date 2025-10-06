@@ -87,3 +87,20 @@ This resolution aims to respect the village's needs and cultural heritage while 
 - Environmental Ethics
 - Moral Philosophy
 - Synthetic
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- AtomSpace
+- PLN (Probabilistic Logic Networks)
+
+**Secondary Subsystems:**
+- Pattern Matcher
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** General Reasoning
+
+**Complexity Level:** Medium

@@ -63,3 +63,20 @@ I'm not familiar enough with *Undertale: Yellow* to provide a list of characters
 - Knowledge Boundaries
 - Information Reliability
 - Self-awareness
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- AtomSpace
+- PLN (Probabilistic Logic Networks)
+
+**Secondary Subsystems:**
+- Pattern Matcher
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** General Reasoning
+
+**Complexity Level:** Medium

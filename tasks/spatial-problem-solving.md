@@ -56,3 +56,21 @@ This ensures the rug fits within the room while maintaining at least 2 feet of s
 - Practical Application
 - Geometric Thinking
 - Logical Deduction
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- Perception and Sensory Processing
+- Pattern Matcher
+
+**Secondary Subsystems:**
+- AtomSpace
+- PLN (Probabilistic Logic Networks)
+
+**Cognitive Architecture:** Sub-symbolic Processing
+
+**Integration Pattern:** Parallel Processing
+
+**Reasoning Type:** Spatial Reasoning
+
+**Complexity Level:** High

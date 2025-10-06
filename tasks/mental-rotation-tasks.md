@@ -44,3 +44,20 @@ After rotating 'F' 90 degrees clockwise, it would look like '⊥'. After flippin
 - Geometric Transformation
 - Visual-Spatial Skills
 - Cognitive Processing
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- Perception and Sensory Processing
+- Pattern Matcher
+
+**Secondary Subsystems:**
+- AtomSpace
+
+**Cognitive Architecture:** Sub-symbolic Processing
+
+**Integration Pattern:** Parallel Processing
+
+**Reasoning Type:** Spatial Transformation
+
+**Complexity Level:** Medium

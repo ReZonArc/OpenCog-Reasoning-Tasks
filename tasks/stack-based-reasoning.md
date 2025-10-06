@@ -8,14 +8,16 @@ Text only
 
 ## Examples:
 
-### Example 1: 
+### Example 1:
 
 Input:
+
 ```
 Create step-by-step instructions for cooking a fried egg in a FORTH-style stack so that a cook can pop items off the stack and end up with a tasty meal. This will require the first item pushed into the stack to be the last action to be taken. use the PUSH keywork for each item.
 ```
 
 Output:
+
 ```
 PUSH enjoy your eggs
 PUSH place eggs on plate
@@ -35,15 +37,31 @@ POP.
 Returns `preheat skillet`
 
 preheat skillet is the first correct step to take.
-
 ```
 
 ## Tags:
 - self verification of tests
 - stack based reasoning
 - FORTH-style stacks
-- First In Last Out 
+- First In Last Out
 - FILO
 - reverse thinking
 - functional programming
 - tail recursion
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- AtomSpace
+- PLN (Probabilistic Logic Networks)
+
+**Secondary Subsystems:**
+- Pattern Matcher
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** General Reasoning
+
+**Complexity Level:** Medium

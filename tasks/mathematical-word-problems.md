@@ -49,3 +49,21 @@ Distance = 60 miles/hour × 2.5 hours = 150 miles
 - Arithmetic
 - Word Problems
 - Applied Mathematics
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- PLN (Probabilistic Logic Networks)
+- Natural Language Processing (RelEx)
+
+**Secondary Subsystems:**
+- AtomSpace
+- Pattern Matcher
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** Mathematical Reasoning
+
+**Complexity Level:** High

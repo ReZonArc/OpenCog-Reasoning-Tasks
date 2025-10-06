@@ -80,3 +80,21 @@ This deduction allows us to understand the meaning of each word and the basic st
 - Linguistic Analysis
 - Mathematical Thinking
 - Synthetic
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- Learning and Memory
+- Pattern Matcher
+
+**Secondary Subsystems:**
+- AtomSpace
+- PLN (Probabilistic Logic Networks)
+
+**Cognitive Architecture:** Sub-symbolic Processing
+
+**Integration Pattern:** Iterative Processing
+
+**Reasoning Type:** Inductive Learning
+
+**Complexity Level:** High

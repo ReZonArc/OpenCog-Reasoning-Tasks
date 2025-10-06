@@ -74,3 +74,21 @@ This argument is valid because it builds a logical chain from the properties of 
 - Reasoning
 - Premise-Conclusion Relationships
 - Synthetic
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- PLN (Probabilistic Logic Networks)
+- Natural Language Processing (RelEx)
+
+**Secondary Subsystems:**
+- AtomSpace
+- Pattern Matcher
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** Argumentative Logic
+
+**Complexity Level:** High

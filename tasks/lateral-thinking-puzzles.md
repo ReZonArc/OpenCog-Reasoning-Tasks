@@ -46,3 +46,20 @@ Explanation: This puzzle relies on the multiple meanings of words like "shoot" a
 - Lateral Thinking
 - Word Play
 - Unconventional Scenarios
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- AtomSpace
+- PLN (Probabilistic Logic Networks)
+
+**Secondary Subsystems:**
+- Pattern Matcher
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** General Reasoning
+
+**Complexity Level:** Medium

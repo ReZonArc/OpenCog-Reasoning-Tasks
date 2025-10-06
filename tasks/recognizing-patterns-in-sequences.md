@@ -80,3 +80,21 @@ Explanation: This is the Fibonacci sequence, where each number is the sum of the
 - Mathematical Thinking
 - Problem Solving
 - Synthetic
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- Pattern Matcher
+- Learning and Memory
+
+**Secondary Subsystems:**
+- AtomSpace
+- Attention Allocation (ECAN)
+
+**Cognitive Architecture:** Sub-symbolic Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** Pattern Recognition
+
+**Complexity Level:** Medium

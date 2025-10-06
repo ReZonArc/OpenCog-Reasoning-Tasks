@@ -46,3 +46,21 @@ Explanation: The Slippery Slope fallacy assumes that a relatively small first st
 - Argumentation
 - Fallacies
 - Reasoning
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- PLN (Probabilistic Logic Networks)
+- Pattern Matcher
+
+**Secondary Subsystems:**
+- Natural Language Processing (RelEx)
+- AtomSpace
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** Logical Analysis
+
+**Complexity Level:** Medium

@@ -48,3 +48,20 @@ Note: This calculation doesn't account for potential seasonal time changes or th
 - International Date Line
 - Travel Time Calculation
 - Temporal Reasoning
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- AtomSpace
+- PLN (Probabilistic Logic Networks)
+
+**Secondary Subsystems:**
+- Pattern Matcher
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** General Reasoning
+
+**Complexity Level:** Medium

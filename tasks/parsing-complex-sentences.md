@@ -79,3 +79,20 @@ This sentence structure allows for a rich, layered description of the scene, com
 - Sentence Structure
 - Clause Identification
 - Synthetic
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- Natural Language Processing (RelEx)
+
+**Secondary Subsystems:**
+- AtomSpace
+- Pattern Matcher
+
+**Cognitive Architecture:** Symbolic Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** Syntactic Analysis
+
+**Complexity Level:** Medium

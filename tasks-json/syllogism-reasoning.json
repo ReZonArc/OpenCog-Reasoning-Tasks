@@ -155,5 +155,18 @@
         "Deductive Reasoning",
         "Syllogisms",
         "Critical Thinking"
-    ]
+    ],
+    "opencog_mapping": {
+        "primary_subsystems": [
+            "PLN (Probabilistic Logic Networks)",
+            "Pattern Matcher"
+        ],
+        "secondary_subsystems": [
+            "AtomSpace"
+        ],
+        "cognitive_architecture": "Symbolic Processing",
+        "integration_pattern": "Sequential Processing",
+        "reasoning_type": "Deductive Logic",
+        "complexity_level": "Medium"
+    }
 }

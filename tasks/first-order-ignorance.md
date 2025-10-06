@@ -44,3 +44,20 @@ Mary isn't excited for the party because she is ignorant of it, as it is a surpr
 - Cognitive Psychology
 - Decision Making
 - Social Cognition
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- AtomSpace
+- PLN (Probabilistic Logic Networks)
+
+**Secondary Subsystems:**
+- Pattern Matcher
+
+**Cognitive Architecture:** Hybrid Processing
+
+**Integration Pattern:** Sequential Processing
+
+**Reasoning Type:** General Reasoning
+
+**Complexity Level:** Medium

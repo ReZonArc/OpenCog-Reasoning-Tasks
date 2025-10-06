@@ -44,3 +44,21 @@ The husband drove the car because he had been told that the brakes were improved
 - Cognitive Psychology
 - Reasoning
 - Social Cognition
+
+## OpenCog Mapping:
+
+**Primary Subsystems:**
+- Cognition Engine (OpenPsi)
+- PLN (Probabilistic Logic Networks)
+
+**Secondary Subsystems:**
+- AtomSpace
+- Pattern Matcher
+
+**Cognitive Architecture:** Meta-cognitive Processing
+
+**Integration Pattern:** Hierarchical Processing
+
+**Reasoning Type:** Theory of Mind
+
+**Complexity Level:** High
